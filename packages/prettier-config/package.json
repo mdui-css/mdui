@@ -1,0 +1,13 @@
+{
+  "name": "@mdui/prettier-config",
+  "main": "./src/index.cjs",
+  "types": "./src/index.cjs",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@rencedm112/prettier-config": "^3.1.1",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.4"
+  }
+}

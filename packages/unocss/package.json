@@ -1,0 +1,30 @@
+{
+  "name": "@mdui/unocss",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.types.json",
+    "publish-package": "pnpm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mdui/core": "0.4.0",
+    "unocss": "^0.51.12"
+  },
+  "peerDependencies": {
+    "@mdui/core": "workspace:0.4.0",
+    "unocss": "^0.51.12"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@mdui/root",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "publish": "turbo publish",
+    "dev": "turbo dev",
+    "publish-package": "turbo publish-package",
+    "check-deps": "manypkg check",
+    "fix-deps": "manypkg fix",
+    "postinstall": "pnpm run check-deps"
+  },
+  "packageManager": "pnpm@7.29.3",
+  "dependencies": {
+    "@babel/core": "^7.21.3",
+    "@changesets/cli": "^2.26.0",
+    "@manypkg/cli": "^0.20.0",
+    "@mdui/core": "0.4.0",
+    "@mdui/eslint-config": "0.0.3",
+    "@mdui/prettier-config": "0.0.0",
+    "@mdui/tsconfig": "0.0.2",
+    "@mdui/unocss": "0.0.0",
+    "@types/prettier": "^2.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "babel-preset-solid": "^1.6.13",
+    "eslint": "^8.36.0",
+    "pnpm": "latest",
+    "prettier": "^2.8.4",
+    "tslib": "^2.5.0",
+    "turbo": "latest",
+    "typescript": "^5.0.2",
+    "unocss": "^0.51.12",
+    "vite": "^4.2.0",
+    "vite-tsconfig-paths": "^4.0.7",
+    "vitest": "^0.29.3"
+  }
+}

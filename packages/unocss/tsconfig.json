@@ -1,0 +1,15 @@
+{
+  "extends": ["./node_modules/@mdui/tsconfig/base.json"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noUncheckedIndexedAccess": false,
+    "verbatimModuleSyntax": true,
+    "types": ["vite/client"]
+  },
+  "include": ["./src/**/*.*"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mdui/demo",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.15"
+  },
+  "devDependencies": {
+    "@mdui/tsconfig": "0.0.2",
+    "@mdui/unocss": "0.0.0",
+    "vite-plugin-solid": "^2.6.1"
+  }
+}
